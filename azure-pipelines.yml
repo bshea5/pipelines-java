@@ -11,8 +11,8 @@ pool:
 
 steps:
 - script: |
-    echo Starting the build
-  displayName: 'Build with Maven'
+    echo Test 1 2 3
+  displayName: 'Testing 1 2 3'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
